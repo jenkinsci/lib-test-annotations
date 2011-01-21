@@ -14,4 +14,10 @@
   <properties>
     <github.repository>lib-test-annotations</github.repository>
   </properties>
+
+  <scm>
+    <connection>scm:git:git://github.com/hudson/lib-test-annotations.git</connection>
+    <developerConnection>scm:git:git@github.com:hudson/lib-test-annotations.git</developerConnection>
+    <url>https://github.com/hudson/lib-test-annotations</url>
+  </scm>
 </project>
