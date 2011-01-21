@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.jvnet.hudson</groupId>
+    <artifactId>hudson</artifactId>
+    <version>1.9-SNAPSHOT</version>
+  </parent>
+  <artifactId>test-annotations</artifactId>
+  
+  <version>1.0-SNAPSHOT</version>
+  <name>Test annotations</name>
+  <description>Annotations to associate test cases with other things</description>
+
+  <properties>
+    <github.repository>lib-test-annotations</github.repository>
+  </properties>
+</project>
