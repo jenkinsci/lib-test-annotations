@@ -31,6 +31,8 @@ import java.lang.annotation.Target;
  * Marks a test case to a bug filed in the issue tracker.
  *
  * @author Kohsuke Kawaguchi
+ * @deprecated
+ *      Use {@link Issue} to explicitly call out which ticket system we are talking about.
  */
 @Documented
 @Target({ElementType.METHOD, ElementType.TYPE})
