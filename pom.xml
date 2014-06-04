@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.jvnet.hudson</groupId>
-    <artifactId>hudson</artifactId>
-    <version>1.9</version>
+    <groupId>org.jenkins-ci</groupId>
+    <artifactId>jenkins</artifactId>
+    <version>1.33</version>
   </parent>
   <artifactId>test-annotations</artifactId>
   
@@ -16,8 +16,8 @@
   </properties>
 
   <scm>
-    <connection>scm:git:git://github.com/hudson/lib-test-annotations.git</connection>
-    <developerConnection>scm:git:git@github.com:hudson/lib-test-annotations.git</developerConnection>
-    <url>https://github.com/hudson/lib-test-annotations</url>
+    <connection>scm:git:git://github.com/jenkinsci/lib-test-annotations.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/lib-test-annotations.git</developerConnection>
+    <url>https://github.com/jenkinsci/lib-test-annotations</url>
   </scm>
 </project>
