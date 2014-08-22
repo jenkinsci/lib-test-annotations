@@ -18,5 +18,5 @@ public @interface Issue {
     /**
      * Issue ID, such as JENKINS-12345 or SECURITY-34.
      */
-    String value();
+    String[] value();
 }
