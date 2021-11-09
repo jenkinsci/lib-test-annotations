@@ -15,6 +15,14 @@
     <github.repository>lib-test-annotations</github.repository>
   </properties>
 
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/lib-test-annotations.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/lib-test-annotations.git</developerConnection>
