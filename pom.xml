@@ -4,15 +4,20 @@
     <groupId>org.jenkins-ci</groupId>
     <artifactId>jenkins</artifactId>
     <version>1.67</version>
+    <relativePath />
   </parent>
   <artifactId>test-annotations</artifactId>
   
-  <version>1.4-SNAPSHOT</version>
+  <version>${revision}${changelist}</version>
   <name>Test annotations</name>
   <description>Annotations to associate test cases with other things</description>
+  <url>https://github.com/jenkinsci/lib-${project.artifactId}</url>
 
   <properties>
-    <github.repository>lib-test-annotations</github.repository>
+    <revision>1.4</revision>
+    <changelist>-SNAPSHOT</changelist>
+    <java.level>8</java.level>
+    <gitHubRepo>jenkinsci/lib-${project.artifactId}</gitHubRepo>
   </properties>
 
   <dependencies>
@@ -24,10 +29,10 @@
   </dependencies>
 
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/lib-test-annotations.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/lib-test-annotations.git</developerConnection>
-    <url>https://github.com/jenkinsci/lib-test-annotations</url>
-    <tag>HEAD</tag>
+    <connection>scm:git:git://github.com/${gitHubRepo}.git</connection>
+    <developerConnection>scm:git:git@github.com:${gitHubRepo}.git</developerConnection>
+    <url>https://github.com/${gitHubRepo}</url>
+    <tag>${scmTag}</tag>
   </scm>
 
   <repositories>
