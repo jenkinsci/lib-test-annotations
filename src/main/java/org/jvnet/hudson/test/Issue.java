@@ -16,7 +16,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.SOURCE)
 public @interface Issue {
     /**
-     * Issue ID, such as JENKINS-12345 or SECURITY-34.
+     * Issue link (https://github.com/jenkinsci/jenkins/issues/1234) or ID, such as JENKINS-12345 or SECURITY-34.
      */
     String[] value();
 }
