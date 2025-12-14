@@ -11,5 +11,4 @@ package org.jvnet.hudson.test;
  * @see <a href="https://github.com/junit-team/junit4/wiki/categories">https://github.com/junit-team/junit4/wiki/categories</a>
  * @since TODO
  */
-public interface SmokeTest {
-}
+public interface SmokeTest {}
