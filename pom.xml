@@ -26,6 +26,7 @@
     <gitHubRepo>jenkinsci/lib-${project.artifactId}</gitHubRepo>
     <spotless.check.skip>false</spotless.check.skip>
     <ban-junit4-imports.skip>false</ban-junit4-imports.skip>
+    <maven.compiler.release>17</maven.compiler.release>
   </properties>
 
   <dependencies>
